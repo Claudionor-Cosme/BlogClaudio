@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    padding: 20px;
+    background-color: #f9f9f9;
+}
+
+/* Container principal */
+main {
+    display: flex;
+    max-width: 100%;
+    margin: auto;
+}
+
+/* Bloco lateral com imagem e info */
+figure {
+    width: 250px;
+    padding: 15px;
+}
+
+figure img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+figcaption {
+    text-align: center;
+    font-weight: bold;
+    margin-bottom: 15px;}
+
+/* Endereços dentro do figure */
+figure address {
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal;
+    font-size: 12px;
+}
+
+/* Área de posts */
+section {
+    flex: 1;
+    padding: 20px;
+}
+
+article {
+    border: 1px solid #ccc;
+    padding: 15px;
+    margin-bottom: 20px;
+    background-color: #fff;
+    border-radius: 5px;
+}
+
+article h1 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+
+

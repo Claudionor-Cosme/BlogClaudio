@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f0f0f0;
+}
+/*layout principal com grid*/
+main{
+    display: grid;
+    grid-template-columns: 25% 75%;
+    width: 100%;
+    min-height: 100vh;
+}
+/*configurando a figura, com flexbox*/
+figure{
+    display: flex;
+    flex-direction: column;
+    padding: 24px;
+    background-color: #ffff;
+}
+/*Configurando a imagem*/
+.foto{
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    margin-bottom: 16px;
+}
+figcaption{
+    margin-bottom: 12px;
+    text-align: left;
+}
+/*configuração da seção da direita (section)*/
+section{
+    padding: 32px;
+    background-color: #ffff;
+}
+article{
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 24px;
+    margin-bottom: 24px;
+    background-color: #fff;
+}
+article h2{
+    margin-bottom: 12px;
+}
+article p{
+    line-height: 1.5;
+}
